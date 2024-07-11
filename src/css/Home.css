@@ -1,0 +1,55 @@
+body{
+    background-color: #F7F6F2;
+    margin: 0;
+}
+.home-image1{
+    width: 100%;
+    height: 650px;
+}
+.home-workflow{
+    background-color: #EAE7E7;
+    padding: 20px 50px;
+    width:980px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    border-radius: 8px;
+    padding-block: 30px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
+}
+
+.title-1{
+    color: #B89C01;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    margin: 25px 0px;
+    font-style: italic;
+}
+
+.info{
+    padding: 15px;
+}
+.number{
+    font-weight:300;
+    font-size: 23px;
+    color: black;
+    font-style: none;
+    padding: 3px;
+}
+.number:hover{
+    color: #B89C01;
+    transition: 0.5s ease;
+}
+.num{
+    font-size: 16px;
+    color: rgba(31, 30, 30, 0.841);
+    font-family: 'Times New Roman', Times, serif;
+    margin: none;  
+}
+.workflow-info-each{
+    margin: 0px 20px;
+    width: 900px;
+    color: rgba(30, 30, 30, 0.834);
+    font-size: 15px;
+}

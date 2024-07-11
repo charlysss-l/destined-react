@@ -1,0 +1,44 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 7px;
+}
+.brand{
+    color: #B89C01;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+.brand:hover{
+    color: #bcad5a;
+}
+
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin:15px 32px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(17, 15, 135);
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #B89C01;
+    text-decoration: none;
+    transition: 0.5s ease;
+}

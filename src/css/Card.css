@@ -1,0 +1,38 @@
+
+.card{
+    border-radius: 10px;
+    background-color: #F6F2F2;
+    box-shadow: 5px 5px 5px rgba(21, 21, 21, 0.282);
+    text-align: center;
+}
+
+.card:hover{
+    transform: translateY(-5px); 
+    transition: all 0.3s ease-in-out; 
+}
+.card .card-img{
+    height: 450px;
+    width: 450px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.card .card-title{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    color: rgba(27, 26, 26, 0.842);
+    text-align: left;
+    padding-left: 10px;
+}
+
+.card-title:hover{
+    color: #90780b;    
+    transition: 0.5s ease;
+}
+.card .card-price{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B89C01;    font-size: 10px;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 15px;
+}
